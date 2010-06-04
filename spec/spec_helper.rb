@@ -1,5 +1,5 @@
 require 'rubygems'
-require 'spec'
+require 'rspec'
 require 'active_support'
 require 'active_record'
 require 'action_controller'
@@ -7,7 +7,7 @@ require 'action_view'
 require 'cancan'
 require 'cancan/matchers'
 
-Spec::Runner.configure do |config|
+Rspec.configure do |config|
   config.mock_with :rr
 end
 

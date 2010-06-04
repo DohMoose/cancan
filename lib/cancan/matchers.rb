@@ -1,4 +1,4 @@
-Spec::Matchers.define :be_able_to do |*args|
+Rspec::Matchers.define :be_able_to do |*args|
   match do |ability|
     ability.can?(*args)
   end
